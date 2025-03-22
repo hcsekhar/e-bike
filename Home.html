@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar on Background Image</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body class="navabar11">
+    <header>
+        <nav class="navbar">
+            <div><img src="./Images/DECCAN R logo .jpg" class="logo"></div>
+            <p>Menu</p>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./Services.html">Services</a></li>
+                <li><a href="./ContactUs.html">ContactUs</a></li>
+            </ul>
+           
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+        <h1 class="mainimagedata">INTRODUCING THE DECCAN R NEMO</h1>
+    </header>
+   <br>
+   <div class="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item"><img src="./Images/BikeImage3.jpg" alt="Slide 2"></div>
+        <div class="carousel-item"><img src="./Images/BikeImage2.jpg" alt="Slide 1"></div>
+    </div>
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+<br>
+<div class="scroll">
+    <div class="container">
+       <img src="./Images/Raya_Eco_9.jpg" class="image left" id="leftImg">
+     
+       <img src="./Images/Raya_flux_1.jpg" class="image right" id="rightImg">
+       <h1 class="scrolldata"><br>HIGH PERFORMANCE E-BIKES</h1>
+    </div>
+    </div>
+    <br>
+    <div class="changingimage">
+        <div class="image-container3">
+            <h1  class="fourImagematter">KEY BODY PARTS OF BIKES</h1>
+            <img id="image" src= "Images/Raya_flux_4.jpg" alt="Slideshow">
+        </div>
+    </div>
+    <br>
+    <h1 class="twobikeimagesmatter">ECO MODEL E-BIKES</h1>
+    <img src="./Images/Raya_flux_pic2.jpg" class="twobikeimages">
+        <table  class="iconimagesmain">
+            <tr>
+                <td> <button class="iconimagesbtn"><h2><i class="fa-sharp fa-solid fa-motorcycle" class="iconimages"></i> BOOK A TEST RIDE</h2></button></td>
+                <td> <button class="iconimagesbtn"><h2><i class="fa-solid fa-magnifying-glass-location" class="iconimages"></i>FIND A STORE</h2></button></td>
+            </tr>
+        </table>
+    <br>
+<div class="fourImage">
+    <h1 class="fourImagematter">Low Speed Electric Bikes <br> Book Now <br> offer prices Rs.999/- only</h1>
+<div class="leftsideimage">
+      <div class="image-container">
+        <img src="./Images/Raya_Eco_1.jpg" alt="Example Image">
+        <button onclick="buttonClicked()">BOOK NOW</button>
+      </div> 
+      <br> 
+      <div class="image-container">
+        <img src="./Images/Raya_flux_1.jpg" alt="Example Image">
+        <button onclick="buttonClicked()">BOOK NOW</button>
+      </div>    
+</div>
+<div class="rightsideimage">
+    <div class="image-container">
+        <img src="./Images/Raya_flux_4.jpg" alt="Example Image">
+        <button onclick="buttonClicked()">BOOK NOW</button>
+        <br>
+      </div>
+     
+      <div class="image-container">
+        <img src="./Images/Raya_Eco_13.jpg" alt="Example Image">
+        <button onclick="buttonClicked()">BOOK NOW</button>
+      </div>  
+</div>
+</div>
+
+<br><br>
+<div class="mobiledata">
+<h1 class="mobiledatamatter">STAY CONNECTED TO YOUR  <br> RIDE,FOREVER WITH DECCAN R <br>E-BIKE APP
+
+<br><br>
+DECCAN R E-BIKE: RIDES  <br> THAT RECREATE THE FUTURE,<br> THE GREENER WAY</h1>
+<image src="./Images/mobile.jpg" class="mobiledataimage"></image>
+</div>
+<br>
+<image src="./Images/OfferBanner.png"></image>
+<br>
+<fieldset class="heading2">
+        
+    <table class="table1">
+       <h1 class="heading">Bookings for Offer</h1>
+       <tr>
+           <td class="heading1"><input type="text" placeholder="NAME" required></td>
+           <td class="heading1"><input type="text" placeholder="LAST NAME" required></td>
+       </tr>
+       <tr>
+        <td class="heading1"><input type="text" placeholder="EMAIL" required></td>
+        <td class="heading1"><input type="text" placeholder="PHONE NUMBER" required></td>
+       </tr>
+       
+       <tr>
+        <td class="heading1"><input type="text"  list="7" size="6" placeholder="SELECT BIKE MODEL" class="options" required>
+            <datalist id="7">
+                <option>Mihos</option>
+                <option>Nemo</option>
+                <option>Beast</option>
+                <option>Glob</option>
+                <option>Wolf</option>
+                <option>Thunderbolt</option>
+                <option>Hurricane</option>
+                <option>Eco Models</option>
+             </datalist>
+            </td>
+        <td class="heading1"><input type="text" placeholder="STATE" required></td>
+       </tr>
+       <tr>
+        <td class="heading1"><input type="text" placeholder="CITY" required></td>
+        <td class="heading1"><input type="text" placeholder="PINCODE" required></td>
+       </tr>
+       <br>
+       <tr>
+        <td class="heading12"><input type="checkbox" placeholder="CITY" required>
+            I agree to receive Email marketing promotions, offers, and announcements for precise Communication.
+        </td>
+       </tr>
+       <tr>
+        <td class="heading12"><input type="submit" value="Book Now Rs.999/-" class="submit1">
+            
+        </td>
+       </tr>
+    </table>
+        </fieldset>
+<br>
+<footer>
+    <div class="footer-container">
+        
+        <div class="footer-logo">
+            <img src="./Images/DECCAN R logo .jpg" alt="Logo">
+        </div>
+        <br>
+        
+        <div class="Products">
+            <a>OUR LINKS</a>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="Products">
+            <a href="#"><i class="fa-solid fa-sqaure"></i>OUR PRODUCTS</a>
+            <a href="#"><i class="fa-solid fa-sqaure"></i>Home</a>
+            <a href="#">Mihos</a>
+            <a href="#">Nemo</a>
+            <a href="#">Beast</a>
+           
+        </div>   
+        <div class="Products">
+            <a href="#">Glob</a>
+            <a href="#">Wolf</a>
+            <a href="#">Thunderbolt</a>
+            <a href="#">Hurricane</a>
+            <a href="#">Eco Models</a>
+        </div>   
+    </div>  
+       
+    
+     <br>
+    <div class="social-icons">
+        <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" target="_blank"> <i class="fa-brands fa-youtube"></i></a>
+        <a href="#" target="_blank"> <i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+
+    <p class="copyright" id="copyright"></p>
+</footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
